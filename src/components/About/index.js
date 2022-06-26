@@ -1,5 +1,5 @@
 import React from "react";
-import coverImage from "../../assets/cover/ZacnMolly.jpg";
+import coverImage from "../../assets/cover/ZacnMolly.JPG";
 
 function About() {
   return (
@@ -9,7 +9,7 @@ function About() {
       <img
         src={coverImage}
         className="my-2"
-        style={{ width: "90%" }}
+        style={{ width: "100%" }}
         alt="cover"
       />
     </section>
