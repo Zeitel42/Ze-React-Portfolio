@@ -1,26 +1,31 @@
-import React, { useEffect } from "react";
-import { capitalizeFirstLetter } from "../../utils/helpers";
+import React from "react";
+// import { router } from "react-router-dom";
+import "../../assets/css/style.css";
 
-function Nav(props) {
-  // const {
-  //   categories = [],
-  //   setCurrentCategory,
-  //   currentCategory,
-  //   contactSelected,
-  //   setContactSelected,
-  // } = props;
-
-  // useEffect(() => {
-  //   document.title = capitalizeFirstLetter(currentCategory.name);
-  // }, [currentCategory]);
-
+function Nav() {
   return (
-    <nav>
-      <ul className="flex-row">
-        <li className="mx-2">Home</li>
-        <li className="mx-2">Projects</li>
-        <li className="mx-2">About</li>
-        <li className="mx-2">Contact</li>
+    <nav className="nav">
+      <ul>
+        <li>
+          <a href="/About" className="navActive">
+            About
+          </a>
+        </li>
+        <li>
+          <a href="/Project" className="navActive">
+            Portfolio
+          </a>
+        </li>
+        <li>
+          <a href="/Contact" className="navActive">
+            Contact
+          </a>
+        </li>
+        <li>
+          <a href="/Resume" className="navActive">
+            Resume
+          </a>
+        </li>
       </ul>
     </nav>
   );
