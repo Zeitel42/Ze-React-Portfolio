@@ -1,11 +1,10 @@
 import React from "react";
 import About from "./components/About";
 import Header from "./components/Header";
-import Nav from "./components/Nav";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Project from "./components/Project";
-import Resume from "./components/Resume";
+// import Resume from "./components/Resume";
 
 function App() {
   let Component;
@@ -14,18 +13,15 @@ function App() {
     case "/":
       Component = About;
       break;
-    case "/About":
-      Component = About;
-      break;
     case "/Project":
       Component = Project;
       break;
-    case "/Contact":
-      Component = Contact;
-      break;
-    case "/Resume":
-      Component = Resume;
-      break;
+    // case "/Contact":
+    //   Component = Contact;
+    //   break;
+    // case "/Resume":
+    //   Component = Resume;
+    //   break;
     default:
       Component = About;
   }
@@ -34,7 +30,6 @@ function App() {
       <Header />
       <main className="main"></main>
       <Component />
-
       <Footer />
     </div>
   );
