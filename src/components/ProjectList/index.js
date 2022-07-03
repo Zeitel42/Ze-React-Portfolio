@@ -58,7 +58,7 @@ const ProjectList = ({ projectName }) => {
         <Modal onClose={toggleModal} currentPhoto={currentPhoto} />
       )} */}
       <div className="flex-row">
-        {projects.map((project, i) => (
+        {projects.map((project) => (
           <div className="project-div">
             <h2 className="project-title">
               <a href={project.name}>{project.name}</a>

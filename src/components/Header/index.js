@@ -3,9 +3,15 @@ import Nav from "../Nav";
 
 function Header() {
   return (
-    <header className="flex-row px-1">
-      <h1>Zac Eitel</h1>
-      <Nav />
+    <header className="flex-row px-1 page-header">
+      <ul>
+        <li>
+          <h1>Zac Eitel</h1>
+        </li>
+        <li>
+          <Nav />
+        </li>
+      </ul>
     </header>
   );
 }
