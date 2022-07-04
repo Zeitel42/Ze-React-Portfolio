@@ -3,7 +3,11 @@ import React from "react";
 function Footer() {
   return (
     <footer className="flex-row px-1 footer">
-      <h1>This is the footer</h1>
+      <a href="https://stackoverflow.com/users/9383363/zeitel42">
+        Stack Overflow
+      </a>
+      <a href="https://github.com/Zeitel42">GitHub</a>
+      <a href="https://www.linkedin.com/in/zac-eitel-54709022a/">LinkedIn</a>
     </footer>
   );
 }

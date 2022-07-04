@@ -63,7 +63,6 @@ const ProjectList = ({ projectName }) => {
             <h2 className="project-title">
               <a href={project.name}>{project.name}</a>
             </h2>
-            <p>Built with: {project.languages}</p>
             <a href={project.link}>
               <img
                 src={require(`../../assets/small/${project.name}.png`)}
@@ -73,6 +72,8 @@ const ProjectList = ({ projectName }) => {
                 key={project.name}
               />
             </a>
+            <p>Built with: {project.languages}</p>
+
             <p>
               {project.name} GitHub Repo click <a href={project.github}>here</a>
               .

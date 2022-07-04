@@ -80,21 +80,37 @@ body {
 }
 
 .about {
-    color: blue;
+    display: flex;
+    background-color: #777;
+    justify-content: center;
+    color: white;
 
+
+}
+.about p {
+    width: 50%;
 }
 .about-img {
     width: 15%;
     border-radius: 50%;
 }
+
+.project-div {
+    border-bottom: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
 .project-title a{
     color: gray;
+    font-size: 3rem;
     text-shadow: 1px 2px 3px black;
     text-decoration: none;
+    margin: 10px;
 }
 img {
     width: 50%;
     height: auto;
+    box-shadow: 3px 3px 10px black;
     
 }
 
@@ -104,8 +120,14 @@ img {
 }
 
 .footer {
-    position:absolute;
+    position:bottom;
+    display: flex;
+    justify-content: center;
 left:0;
 bottom:0;
 right:0;
+}
+.footer a {
+padding: 2px;
+margin: 5px;
 }
