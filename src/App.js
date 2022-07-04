@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Project from "./components/Project";
 import Resume from "./components/Resume";
+import "./assets/css/style.css";
 
 function App() {
   // let Component;
@@ -31,7 +32,7 @@ function App() {
       <Header />
       <main className="main"></main>
       <Routes>
-        <Route path="/" element={<About />} />
+        {/* <Route path="/" element={<About />} /> */}
         <Route path="/About" element={<About />} />
         <Route path="/Project" element={<Project />} />
         <Route path="/Contact" element={<Contact />} />

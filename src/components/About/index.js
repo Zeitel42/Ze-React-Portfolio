@@ -1,12 +1,12 @@
 import React from "react";
-import coverImage from "../../assets/cover/ZacnMolly.JPG";
+import coverImage from "../../assets/images/ZacnMolly.JPG";
 
 function About() {
   return (
-    <section className="my-5 about">
-      <h1 id="about">About Me</h1>
+    <section className="my-5 about-section">
+      <h1 className="about-title">About Me</h1>
       <img src={coverImage} className="my-2 about-img" alt="cover" />
-      <p>
+      <p className="about-bio">
         My name is Zac, and I am a builder. Whether it be a website, or via
         conventional commercial construction practices, or line construction
         that brings the internet to your town and neighborhood, or residential
