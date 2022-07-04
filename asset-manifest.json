@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/photo-port/static/css/main.c2490f59.css",
+    "main.js": "/photo-port/static/js/main.5a6bcd3e.js",
+    "static/js/787.f079f2fb.chunk.js": "/photo-port/static/js/787.f079f2fb.chunk.js",
+    "static/media/ACC Game Finder.png": "/photo-port/static/media/ACC Game Finder.eaa1d7263fc948468248.png",
+    "static/media/Run Buddy.png": "/photo-port/static/media/Run Buddy.a626d2ca11bc4180af1e.png",
+    "static/media/Weather Dashboard.png": "/photo-port/static/media/Weather Dashboard.811d161bdeeb469d4fd9.png",
+    "static/media/Quick Quiz.png": "/photo-port/static/media/Quick Quiz.17a0b5847dbd9fe0cbcf.png",
+    "static/media/LiveHire.png": "/photo-port/static/media/LiveHire.7d8d8d620e5908cd7e43.png",
+    "static/media/ZacnMolly.JPG": "/photo-port/static/media/ZacnMolly.4cf2d0a931b39972635f.JPG",
+    "static/media/Note Taker.png": "/photo-port/static/media/Note Taker.f148abe2a2fc34249cc3.png",
+    "index.html": "/photo-port/index.html",
+    "main.c2490f59.css.map": "/photo-port/static/css/main.c2490f59.css.map",
+    "main.5a6bcd3e.js.map": "/photo-port/static/js/main.5a6bcd3e.js.map",
+    "787.f079f2fb.chunk.js.map": "/photo-port/static/js/787.f079f2fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2490f59.css",
+    "static/js/main.5a6bcd3e.js"
+  ]
+}
