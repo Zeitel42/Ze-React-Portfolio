@@ -28,6 +28,10 @@ Portfolio will be hosted on GitHub Pages.
 
 An easy to navigate web page that showcases previous projects, has a short biography, a contact form, and resume.
 
+<img src="../assets/small/ze-react-port.png">
+
+https://zeitel42.github.io/ze-react-portfolio/
+
 ## <h2 id="userLicense">**License**</h2>
 
 ### <em>NOTICE</em>:
