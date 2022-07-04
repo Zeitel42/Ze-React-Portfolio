@@ -8,24 +8,6 @@ import Project from "./components/Project";
 import Resume from "./components/Resume";
 
 function App() {
-  // let Component;
-
-  // switch (window.location.pathname) {
-  //   case "/":
-  //     Component = About;
-  //     break;
-  //   case "/Project":
-  //     Component = Project;
-  //     break;
-  //   case "/Contact":
-  //     Component = Contact;
-  //     break;
-  //   case "/Resume":
-  //     Component = Resume;
-  //     break;
-  //   default:
-  //     Component = About;
-  // }
   return (
     <div>
       <Header />
