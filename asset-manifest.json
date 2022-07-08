@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ze-react-portfolio/About/static/css/main.d3f3bef1.css",
-    "main.js": "/ze-react-portfolio/About/static/js/main.48c820d8.js",
-    "static/js/787.f079f2fb.chunk.js": "/ze-react-portfolio/About/static/js/787.f079f2fb.chunk.js",
-    "static/media/ACC Game Finder.png": "/ze-react-portfolio/About/static/media/ACC Game Finder.eaa1d7263fc948468248.png",
-    "static/media/ze-resume.pdf": "/ze-react-portfolio/About/static/media/ze-resume.8815dfbd713d39c121e5.pdf",
-    "static/media/Run Buddy.png": "/ze-react-portfolio/About/static/media/Run Buddy.a626d2ca11bc4180af1e.png",
-    "static/media/Weather Dashboard.png": "/ze-react-portfolio/About/static/media/Weather Dashboard.811d161bdeeb469d4fd9.png",
-    "static/media/Quick Quiz.png": "/ze-react-portfolio/About/static/media/Quick Quiz.17a0b5847dbd9fe0cbcf.png",
-    "static/media/ze-react-port.png": "/ze-react-portfolio/About/static/media/ze-react-port.766e61f69dd0bee8c0a1.png",
-    "static/media/LiveHire.png": "/ze-react-portfolio/About/static/media/LiveHire.7d8d8d620e5908cd7e43.png",
-    "static/media/ze-resume-img.png": "/ze-react-portfolio/About/static/media/ze-resume-img.39b1107ed39566e4c255.png",
-    "static/media/ZacnMolly.JPG": "/ze-react-portfolio/About/static/media/ZacnMolly.4cf2d0a931b39972635f.JPG",
-    "static/media/Note Taker.png": "/ze-react-portfolio/About/static/media/Note Taker.f148abe2a2fc34249cc3.png",
-    "index.html": "/ze-react-portfolio/About/index.html",
-    "main.d3f3bef1.css.map": "/ze-react-portfolio/About/static/css/main.d3f3bef1.css.map",
-    "main.48c820d8.js.map": "/ze-react-portfolio/About/static/js/main.48c820d8.js.map",
-    "787.f079f2fb.chunk.js.map": "/ze-react-portfolio/About/static/js/787.f079f2fb.chunk.js.map"
+    "main.css": "/About/static/css/main.d3f3bef1.css",
+    "main.js": "/About/static/js/main.24111ba8.js",
+    "static/js/787.f079f2fb.chunk.js": "/About/static/js/787.f079f2fb.chunk.js",
+    "static/media/ACC Game Finder.png": "/About/static/media/ACC Game Finder.eaa1d7263fc948468248.png",
+    "static/media/ze-resume.pdf": "/About/static/media/ze-resume.8815dfbd713d39c121e5.pdf",
+    "static/media/Run Buddy.png": "/About/static/media/Run Buddy.a626d2ca11bc4180af1e.png",
+    "static/media/Weather Dashboard.png": "/About/static/media/Weather Dashboard.811d161bdeeb469d4fd9.png",
+    "static/media/Quick Quiz.png": "/About/static/media/Quick Quiz.17a0b5847dbd9fe0cbcf.png",
+    "static/media/ze-react-port.png": "/About/static/media/ze-react-port.766e61f69dd0bee8c0a1.png",
+    "static/media/LiveHire.png": "/About/static/media/LiveHire.7d8d8d620e5908cd7e43.png",
+    "static/media/ze-resume-img.png": "/About/static/media/ze-resume-img.39b1107ed39566e4c255.png",
+    "static/media/ZacnMolly.JPG": "/About/static/media/ZacnMolly.4cf2d0a931b39972635f.JPG",
+    "static/media/Note Taker.png": "/About/static/media/Note Taker.f148abe2a2fc34249cc3.png",
+    "index.html": "/About/index.html",
+    "main.d3f3bef1.css.map": "/About/static/css/main.d3f3bef1.css.map",
+    "main.24111ba8.js.map": "/About/static/js/main.24111ba8.js.map",
+    "787.f079f2fb.chunk.js.map": "/About/static/js/787.f079f2fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3f3bef1.css",
-    "static/js/main.48c820d8.js"
+    "static/js/main.24111ba8.js"
   ]
 }
