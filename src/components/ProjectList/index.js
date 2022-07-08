@@ -1,10 +1,6 @@
 import React, { useState } from "react";
-// import Modal from "../Modal";
 
 const ProjectList = ({ projectName }) => {
-  // const [isModalOpen, setIsModalOpen] = useState(false);
-  // const [currentPhoto, setCurrentPhoto] = useState();
-
   const [projects] = useState([
     {
       name: "Run Buddy",
@@ -43,39 +39,31 @@ const ProjectList = ({ projectName }) => {
       github: "https://github.com/Zeitel42/ZE-QUICK-QUIZ",
     },
   ]);
-  // const currentProjects = projects.filter(
-  //   (project) => project.name === projectName
-  // );
-
-  // const toggleModal = (image, i) => {
-  //   setCurrentPhoto({ ...image, index: i });
-  //   setIsModalOpen(!isModalOpen);
-  // };
 
   return (
     <div>
-      {/* {isModalOpen && (
-        <Modal onClose={toggleModal} currentPhoto={currentPhoto} />
-      )} */}
-      <div className="flex-row">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 mt-5 place-items-center">
         {projects.map((project) => (
-          <div className="project-div">
-            <h2 className="project-title">
+          <div className="w-4/5" key={project.name}>
+            <h2 className="text-xl">
               <a href={project.name}>{project.name}</a>
             </h2>
             <a href={project.link}>
               <img
-                src={require(`../../assets/small/${project.name}.png`)}
+                src={require(`../../assets/images/${project.name}.png`)}
                 alt={project.name}
                 className="img-thumbnail mx-1"
                 // onClick={() => toggleModal(project, i)}
                 key={project.name}
               />
             </a>
-            <p>Built with: {project.languages}</p>
+            <p className="text-sm">Built with: {project.languages}</p>
 
-            <p>
-              {project.name} GitHub Repo click <a href={project.github}>here</a>
+            <p className="text-sm">
+              {project.name} GitHub Repo click{" "}
+              <a className="text-blue-500" href={project.github}>
+                here
+              </a>
               .
             </p>
           </div>

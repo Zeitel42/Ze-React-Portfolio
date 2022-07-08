@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
 }
@@ -7,127 +7,12 @@ body {
     min-height: 100vh;
     margin-top: 0;
     padding: 0;
-
     display: flex;
     flex-direction: column;
 }
-.page-header {
-    margin: 0;
-    font-size: larger;
-    color: white;
-    text-shadow: 1px 2px 2px black;
-    padding: 20px;
-    background-color: #777;
-    width: 100%;
-}
-.page-header ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    list-style: none;
-}
-.nav {
-   
-    text-shadow: 1px 2px 2px black;
-    font-size: larger;
-    color: white;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 2rem;
-    padding: 0 1rem;
+*/
+
+title {
+    text-shadow: 1px 1px 3px black;
 }
 
-.site-title {
-    font-size: 2rem;
-}
-
-.nav {
-    /* background-color: #333; */
-    color: white;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    gap: 2rem;
-}
-
-.nav ul {
-    padding: 0;
-    margin-top: 0;
-    list-style: none;
-    display: flex;
-
-}
-
-.nav a {
-    color: inherit;
-    text-decoration: none;
-    padding: 1rem;
-    /* font-size: 3rem; */
-}
-
-.active{
-    /* background-color: #555; */
-    color: red;
-}
-.nav li:hover{
-    text-shadow: 1px 1px 3px white;
-}
-.main {
-    flex-grow: 1;
-}
-
-.about {
-    display: flex;
-    background-color: #777;
-    justify-content: center;
-    color: white;
-
-
-}
-.about p {
-    width: 50%;
-}
-.about-img {
-    width: 15%;
-    border-radius: 50%;
-}
-
-.project-div {
-    border-bottom: 2px solid black;
-    margin: 20px;
-    padding: 20px;
-}
-.project-title a{
-    color: gray;
-    font-size: 3rem;
-    text-shadow: 1px 2px 3px black;
-    text-decoration: none;
-    margin: 10px;
-}
-img {
-    width: 50%;
-    height: auto;
-    box-shadow: 3px 3px 10px black;
-    
-}
-
-.resume {
-    margin: 10px;
-
-}
-
-.footer {
-    position:bottom;
-    display: flex;
-    justify-content: center;
-left:0;
-bottom:0;
-right:0;
-}
-.footer a {
-padding: 2px;
-margin: 5px;
-}
