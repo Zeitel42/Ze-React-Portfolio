@@ -54,13 +54,15 @@ function Contact() {
   }
   //   console.log(formState);
   return (
-    <div className="grid grid-col-1 justify-items-center h-full mx-12 rounded-lg shadow-xl justify-items-center bg-gray-800">
-      <section className="w-3/5 pt-28 mt-2 pb-3 text-4xl text-white text-left">
+    <div className="grid grid-col-1 justify-items-left h-screen mx-12 rounded-lg shadow-xl bg-gray-800">
+      <section className="w-3/5 pt-32 mt-2 pb-3 text-4xl text-white text-left">
         <h1>Contact me!</h1>
 
         <form
+          action="https://formsubmit.co/zaceitel@gmail.com"
+          method="POST"
           id="contact-form"
-          className="block mb-2 text-sm font-medium text-white dark:text-gray-300 pt-6"
+          className="block mb-2 text-sm font-medium dark:text-gray-300 pt-6"
           onSubmit={handleSubmit}
         >
           <div>
@@ -68,7 +70,7 @@ function Contact() {
             <input
               type="text"
               name="name"
-              className="bg-gray-50 border border-gray-300 text-white-600 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-800 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="John Doe"
               required=""
               defaultValue={name}
@@ -80,7 +82,7 @@ function Contact() {
             <input
               type="email"
               name="email"
-              className="bg-gray-50 border border-gray-300 text-white-600 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-800 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="example@webmail.org"
               required=""
               defaultValue={email}
@@ -93,7 +95,7 @@ function Contact() {
             <textarea
               name="message"
               rows="5"
-              className="block p-2.5 w-full text-sm text-blue-500 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="block p-2.5 w-full text-sm text-gray-800 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="Message me!..."
               defaultValue={message}
               onBlur={handleChange}
