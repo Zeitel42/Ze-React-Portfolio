@@ -13,6 +13,7 @@ function App() {
     <div className="bg-gray-800">
       <Header />
       <Routes>
+        <Route path="/" element={<About />} />
         <Route path="/About" element={<About />} />
         <Route path="/Project" element={<Project />} />
         <Route path="/Contact" element={<Contact />} />
