@@ -50,7 +50,10 @@ function Contact() {
   }
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(formState);
+    console.log(formState, "handleSubmit ran");
+    setFormState({ name: "", email: "", message: "" });
+    e.target.reset();
+    // alert("Your message has been sent to the man himself!");
   }
   //   console.log(formState);
   return (
@@ -59,10 +62,10 @@ function Contact() {
         <h1>Contact me!</h1>
 
         <form
+          onSubmit={handleSubmit}
           action="https://formsubmit.co/a2a4d9e91c26f6388f431847ca752590"
           method="POST"
           className="block mb-2 text-sm font-medium dark:text-gray-300 pt-6"
-          // onSubmit={handleSubmit}
         >
           <div>
             <label htmlFor="name">Name:</label>
