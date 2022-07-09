@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ze-react-portfolio/static/css/main.22344412.css",
-    "main.js": "/ze-react-portfolio/static/js/main.a0ebe027.js",
+    "main.js": "/ze-react-portfolio/static/js/main.e48ec486.js",
     "static/js/787.f079f2fb.chunk.js": "/ze-react-portfolio/static/js/787.f079f2fb.chunk.js",
     "static/media/ACC Game Finder.png": "/ze-react-portfolio/static/media/ACC Game Finder.eaa1d7263fc948468248.png",
     "static/media/ze-resume.pdf": "/ze-react-portfolio/static/media/ze-resume.8815dfbd713d39c121e5.pdf",
@@ -15,11 +15,11 @@
     "static/media/Note Taker.png": "/ze-react-portfolio/static/media/Note Taker.f148abe2a2fc34249cc3.png",
     "index.html": "/ze-react-portfolio/index.html",
     "main.22344412.css.map": "/ze-react-portfolio/static/css/main.22344412.css.map",
-    "main.a0ebe027.js.map": "/ze-react-portfolio/static/js/main.a0ebe027.js.map",
+    "main.e48ec486.js.map": "/ze-react-portfolio/static/js/main.e48ec486.js.map",
     "787.f079f2fb.chunk.js.map": "/ze-react-portfolio/static/js/787.f079f2fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22344412.css",
-    "static/js/main.a0ebe027.js"
+    "static/js/main.e48ec486.js"
   ]
 }
