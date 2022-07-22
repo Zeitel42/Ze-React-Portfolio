@@ -3,10 +3,11 @@ import React, { useState } from "react";
 const ProjectList = ({ projectName }) => {
   const [projects] = useState([
     {
-      name: "Run Buddy",
-      languages: "HTML, CSS",
-      link: "https://Zeitel42.github.io/run-buddy/",
-      github: "https://github.com/Zeitel42/run-buddy",
+      name: "Sapient",
+      languages: "MERN Stack",
+      link: "https://sapient-origin.herokuapp.com/",
+      github:
+        "https://github.com/Zeitel42/Sapient-Community-Outreach-Application",
     },
     {
       name: "Weather Dashboard",
