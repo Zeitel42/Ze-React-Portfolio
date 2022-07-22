@@ -9,12 +9,30 @@ function Resume() {
       <p className="mt-36 text-white">
         Click{" "}
         <a href={filePath} target="_blank" className="text-blue-500">
-          here
+          <button>here</button>
         </a>{" "}
-        to download a pdf
+        to download a pdf of my resume!
       </p>
+      <h2>Current proficiencies minclude:</h2>
+      <ul className="text-white m-4">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Express.js</li>
+        <li>React</li>
+        <li>GraphQL</li>
+        <li>Sequelize</li>
+        <li>Handlebars</li>
+        <li>JQuery</li>
+        <li>MySQL</li>
+        <li>NoSQL</li>
+        <li>MongoDB</li>
+        <li>Mongoose</li>
+        <li>Node.js</li>
+        <li>Git</li>
+      </ul>
 
-      <img src={resumeImage} className="my-4" />
+      {/* <img src={resumeImage} className="my-4" /> */}
     </div>
   );
 }
