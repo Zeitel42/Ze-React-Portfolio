@@ -13,7 +13,7 @@ function Resume() {
         </a>{" "}
         to download a pdf of my resume!
       </p>
-      <h2>Current proficiencies minclude:</h2>
+      <h2>Current proficiencies include:</h2>
       <ul className="text-white m-4">
         <li>HTML</li>
         <li>CSS</li>
