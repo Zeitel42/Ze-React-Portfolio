@@ -2,7 +2,7 @@ import { React } from "react";
 // import { FaJsSquare } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import resumeImage from "../../assets/images/ze-resume-img.png";
-import filePath from "../../assets/ze-resume.pdf";
+import filePath from "../../assets/ZEResumeFSWD.pdf";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaJsSquare } from "react-icons/fa";
@@ -88,7 +88,7 @@ function Resume() {
         to download a pdf of my resume!
       </p>
       <h2 className="bg-white rounded-md p-2">
-        Current proficiencies include: Responsive Design
+        Current proficiencies include:
       </h2>
       <div className="grid grid-cols-3">
         {proficiencies.map((icon) => (

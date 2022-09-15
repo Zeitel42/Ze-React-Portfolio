@@ -10,7 +10,7 @@ function About() {
         <h1 className="title p-4">About Me</h1>
         <hero>
           <img src={coverImage} className="w-1/5 ml-4 rounded-xl" alt="cover" />
-          <img src={bannerImage} classname="w-4/5 rounded-xl" alt="banner" />
+          {/* <img src={bannerImage} classname="w-4/5 rounded-xl" alt="banner" /> */}
         </hero>
         <p className="p-4 text-base ">
           My name is Zac, and I am a builder. Whether it be a website, or via
@@ -28,8 +28,9 @@ function About() {
           <br />
           <br />I am consistently learning and expanding my knowledge base.
           Currently, I have front end knowledge and experience with HTML, CSS,
-          JavaScript, JQuery, NodeJS, React, and PHP. I have back end database
-          knowledge and experience using MySQL and MongoDb.
+          JavaScript, jQuery and React. I have back end/ server side knowledge
+          and experience using Node, Express, Apollo, GraphQL, PHP, MySQL and
+          MongoDb.
         </p>
       </section>
     </div>
