@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ze-react-portfolio/static/css/main.5e2b3722.css",
-    "main.js": "/ze-react-portfolio/static/js/main.37f8d58c.js",
+    "main.css": "/ze-react-portfolio/static/css/main.481d6ddc.css",
+    "main.js": "/ze-react-portfolio/static/js/main.ea76e782.js",
     "static/js/787.f079f2fb.chunk.js": "/ze-react-portfolio/static/js/787.f079f2fb.chunk.js",
     "static/media/ACC Game Finder.png": "/ze-react-portfolio/static/media/ACC Game Finder.eaa1d7263fc948468248.png",
     "static/media/Run Buddy.png": "/ze-react-portfolio/static/media/Run Buddy.a626d2ca11bc4180af1e.png",
@@ -10,17 +10,17 @@
     "static/media/ze-react-port.png": "/ze-react-portfolio/static/media/ze-react-port.5c183d63a92e03e086cf.png",
     "static/media/Sapient.png": "/ze-react-portfolio/static/media/Sapient.f75d450b39c77bb6941e.png",
     "static/media/LiveHire.png": "/ze-react-portfolio/static/media/LiveHire.7d8d8d620e5908cd7e43.png",
+    "static/media/ZEResumeFSWD1022.pdf": "/ze-react-portfolio/static/media/ZEResumeFSWD1022.dbba46ce9bd6d7782024.pdf",
     "static/media/ze-resume-img.png": "/ze-react-portfolio/static/media/ze-resume-img.39b1107ed39566e4c255.png",
-    "static/media/ZEResumeFSWD.pdf": "/ze-react-portfolio/static/media/ZEResumeFSWD.be4318d642615b82d817.pdf",
     "static/media/ZacnMolly.JPG": "/ze-react-portfolio/static/media/ZacnMolly.4cf2d0a931b39972635f.JPG",
     "static/media/Note Taker.png": "/ze-react-portfolio/static/media/Note Taker.f148abe2a2fc34249cc3.png",
     "index.html": "/ze-react-portfolio/index.html",
-    "main.5e2b3722.css.map": "/ze-react-portfolio/static/css/main.5e2b3722.css.map",
-    "main.37f8d58c.js.map": "/ze-react-portfolio/static/js/main.37f8d58c.js.map",
+    "main.481d6ddc.css.map": "/ze-react-portfolio/static/css/main.481d6ddc.css.map",
+    "main.ea76e782.js.map": "/ze-react-portfolio/static/js/main.ea76e782.js.map",
     "787.f079f2fb.chunk.js.map": "/ze-react-portfolio/static/js/787.f079f2fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e2b3722.css",
-    "static/js/main.37f8d58c.js"
+    "static/css/main.481d6ddc.css",
+    "static/js/main.ea76e782.js"
   ]
 }
