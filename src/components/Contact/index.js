@@ -57,22 +57,22 @@ function Contact() {
   }
   //   console.log(formState);
   return (
-    // <div className="grid grid-col-1 justify-items-left h-screen mx-12 rounded-lg shadow-xl bg-gray-800">
-    //   <section className="w-3/5 pt-32 mt-2 pb-3 text-4xl text-white text-left">
+    <div className="grid grid-col-1 justify-items-left h-screen mx-12 rounded-lg shadow-xl bg-gray-800">
+      <section className="w-1/4 pt-32 mt-2 pb-3 text-4xl text-black text-left">
+        <div className="bg-gray-50">
+          <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
+            <address>
+              <h1>Contact me!</h1>
+              <h3>
+                email:{" "}
+                <a href="mailto:zaceitel@gmail.com"> zaceitel@gmail.com</a>
+              </h3>
+              <h3>phone: 269.861.6727</h3>
+            </address>
+          </div>
+        </div>
 
-    <div className="bg-gray-50">
-      <h1>Contact me!</h1>
-      <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-        <address>
-          <h3>
-            email: <a href="mailto:zaceitel@gmail.com"> zaceitel@gmail.com</a>
-          </h3>
-          <h3>phone: 269.861.6727</h3>
-        </address>
-      </div>
-    </div>
-
-    /* <form
+        {/* <form
           onSubmit={handleSubmit}
           action="https://formsubmit.co/a2a4d9e91c26f6388f431847ca752590"
           method="POST"
@@ -124,9 +124,9 @@ function Contact() {
             type="submit"
             value="Submit"
           />
-        </form> */
-    //   </section>
-    // </div>
+        </form> */}
+      </section>
+    </div>
   );
 }
 
