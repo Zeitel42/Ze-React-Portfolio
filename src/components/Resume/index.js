@@ -80,19 +80,29 @@ function Resume() {
 
   return (
     <div className="grid">
-      <p className="mt-36 text-white">
-        Click{" "}
-        <a href={filePath} target="_blank" className="text-blue-500">
-          <button>here</button>
-        </a>{" "}
-        to download a pdf of my resume!
+      <p className="mt-36 text-white ml-5">
+        Feel free to download a pdf of my
+        <button type="button" className="m-2">
+          <a
+            href={filePath}
+            target="_blank"
+            className="bg-blue-800 p-1 text-white rounded-md"
+          >
+            Resume
+          </a>{" "}
+        </button>
       </p>
-      <h2 className="bg-white rounded-md p-2">
+
+      {/* <Link to="../../assets/ZEResumeFSWD1022.pdf" target="_blank">
+        Resume
+      </Link> */}
+
+      <h2 className="bg-white rounded-md p-2 m-5">
         Current proficiencies include:
       </h2>
       <div className="grid grid-cols-3">
         {proficiencies.map((icon) => (
-          <div className="w-1/5 h-auto border border-black rounded bg-white mt-2 ">
+          <div className="w-1/5 h-auto border border-black rounded bg-white m-5 ">
             <div className="grid mt-8 justify-items-center content-center">
               <h2 className="text-sm">{icon.name}</h2>
               <div className="text-2xl pb-8">{icon.icon}</div>
