@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ze-react-portfolio/static/css/main.481d6ddc.css",
-    "main.js": "/ze-react-portfolio/static/js/main.ea76e782.js",
+    "main.css": "/ze-react-portfolio/static/css/main.081d7840.css",
+    "main.js": "/ze-react-portfolio/static/js/main.ab4fae86.js",
     "static/js/787.f079f2fb.chunk.js": "/ze-react-portfolio/static/js/787.f079f2fb.chunk.js",
     "static/media/ACC Game Finder.png": "/ze-react-portfolio/static/media/ACC Game Finder.eaa1d7263fc948468248.png",
     "static/media/Run Buddy.png": "/ze-react-portfolio/static/media/Run Buddy.a626d2ca11bc4180af1e.png",
@@ -15,12 +15,12 @@
     "static/media/ZacnMolly.JPG": "/ze-react-portfolio/static/media/ZacnMolly.4cf2d0a931b39972635f.JPG",
     "static/media/Note Taker.png": "/ze-react-portfolio/static/media/Note Taker.f148abe2a2fc34249cc3.png",
     "index.html": "/ze-react-portfolio/index.html",
-    "main.481d6ddc.css.map": "/ze-react-portfolio/static/css/main.481d6ddc.css.map",
-    "main.ea76e782.js.map": "/ze-react-portfolio/static/js/main.ea76e782.js.map",
+    "main.081d7840.css.map": "/ze-react-portfolio/static/css/main.081d7840.css.map",
+    "main.ab4fae86.js.map": "/ze-react-portfolio/static/js/main.ab4fae86.js.map",
     "787.f079f2fb.chunk.js.map": "/ze-react-portfolio/static/js/787.f079f2fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.481d6ddc.css",
-    "static/js/main.ea76e782.js"
+    "static/css/main.081d7840.css",
+    "static/js/main.ab4fae86.js"
   ]
 }
