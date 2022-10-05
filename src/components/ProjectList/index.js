@@ -5,36 +5,45 @@ const ProjectList = ({ projectName }) => {
     {
       name: "Sapient",
       languages: "MERN Stack",
+      summary:
+        "Application that provides an intuitive, easy to use interface for organizing, participating, and sponsoring local events in your community.",
       link: "https://sapient-origin.herokuapp.com/",
       github:
         "https://github.com/Zeitel42/Sapient-Community-Outreach-Application",
     },
     {
       name: "Weather Dashboard",
+      summary:
+        "Easy to use weather app that displays current weather and 5 day forcast for user chosen city.",
       languages: "HTML, JS, JQuery, Bootstrap, API",
       link: "https://zeitel42.github.io/ZE-Weather-Dashboard/",
       github: "https://github.com/Zeitel42/ZE-Weather-Dashboard",
     },
     {
       name: "Note Taker",
+      summary: "Note taking app that allows user to add, delete, update notes.",
       languages: "JS, JQuery, Node.js, Express.js",
       link: "https://zeitel42-note-taker.herokuapp.com/notes",
       github: "https://github.com/Zeitel42/Note-Taker",
     },
     {
       name: "LiveHire",
+      summary:
+        "Application that connects event coordinators with live performers.",
       languages: "MVC, Handlebars, JS, Node.js, Express.js, API",
       link: "https://gentle-dawn-52689.herokuapp.com/",
       github: "https://github.com/Zeitel42/LiveHire",
     },
     {
       name: "ACC Game Finder",
+      summary: "Application that lists local ACC games, times, locations.",
       languages: "HTML, CSS, Materialize, JS, JQuery, Leaflet, API",
       link: "https://mikekuney.github.io/ACC-Game-Finder/",
       github: "https://github.com/Zeitel42/ACC-Game-Finder",
     },
     {
       name: "Quick Quiz",
+      summary: "A quiz game about JS coding.",
       languages: "HTML, CSS, JS",
       link: "https://zeitel42.github.io/ZE-QUICK-QUIZ/",
       github: "https://github.com/Zeitel42/ZE-QUICK-QUIZ",
@@ -47,7 +56,7 @@ const ProjectList = ({ projectName }) => {
         {projects.map((project) => (
           <div className="w-4/5" key={project.name}>
             <a href={project.name}>
-              <h2 className="text-4xl text-orange-400">{project.name}</h2>
+              <h2 className="text-4xl">{project.name}</h2>
             </a>
             <div className="w-68 h-52 object-fit">
               <a href={project.link}>
@@ -60,9 +69,8 @@ const ProjectList = ({ projectName }) => {
                 />
               </a>
             </div>
-            <p className="text-base text-orange-300">
-              Built with: {project.languages}
-            </p>
+            <p className="text-base">Summary: {project.summary}</p>
+            <p className="text-base">Built with: {project.languages}</p>
 
             <p className="text-sm">
               {project.name} GitHub Repo click{" "}

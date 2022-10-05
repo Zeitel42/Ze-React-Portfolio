@@ -58,21 +58,22 @@ function Contact() {
   //   console.log(formState);
   return (
     <div>
-      <section className="w-1/2 pt-32 m-2 pb-3 text-4xl text-black">
-        <div className="m-5 bg-white rounded-md">
-          <div className="mx-auto max-w-7xl py-4 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-            <address className="">
-              <h1>Contact me!</h1>
-              <h3>
-                email:{" "}
-                <a href="mailto:zaceitel@gmail.com"> zaceitel@gmail.com</a>
-              </h3>
-              <h3>phone: 269.861.6727</h3>
-            </address>
+      <div className="h-screen">
+        <section className="w-1/2 pt-32 m-2 pb-3 text-4xl text-black">
+          <div className="m-10 bg-white rounded-md">
+            <div className="mx-auto max-w-7xl py-4 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
+              <address className="">
+                <h1>Contact me!</h1>
+                <h3>
+                  email:{" "}
+                  <a href="mailto:zaceitel@gmail.com"> zaceitel@gmail.com</a>
+                </h3>
+                <h3>phone: 269.861.6727</h3>
+              </address>
+            </div>
           </div>
-        </div>
 
-        {/* <form
+          {/* <form
           onSubmit={handleSubmit}
           action="https://formsubmit.co/a2a4d9e91c26f6388f431847ca752590"
           method="POST"
@@ -125,7 +126,8 @@ function Contact() {
             value="Submit"
           />
         </form> */}
-      </section>
+        </section>
+      </div>
     </div>
   );
 }
