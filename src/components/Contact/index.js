@@ -57,11 +57,11 @@ function Contact() {
   }
   //   console.log(formState);
   return (
-    <div className="grid grid-col-1 justify-items-left h-screen mx-12 rounded-lg shadow-xl bg-gray-800">
-      <section className="w-1/4 pt-32 mt-2 pb-3 text-4xl text-black text-left">
-        <div className="bg-gray-50">
-          <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-            <address>
+    <div>
+      <section className="w-1/2 pt-32 m-2 pb-3 text-4xl text-black">
+        <div className="m-5 bg-white rounded-md">
+          <div className="mx-auto max-w-7xl py-4 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
+            <address className="">
               <h1>Contact me!</h1>
               <h3>
                 email:{" "}
