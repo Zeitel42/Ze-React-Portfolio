@@ -1,5 +1,5 @@
 import React from "react";
-import coverImage from "../../assets/images/ZacnMolly.JPG";
+import coverImage from "../../assets/images/headshot.jpg";
 import bannerImage from "../../assets/images/ze-react-port.png";
 import "../../assets/css/style.css";
 

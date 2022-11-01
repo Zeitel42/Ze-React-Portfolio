@@ -23,7 +23,7 @@ function Footer() {
             <FaGithub className="w-6 h-6" />
           </a>
           <a
-            href="https://www.linkedin.com/in/zac-eitel-54709022a/"
+            href="https://www.linkedin.com/in/zac-eitel/"
             target="_blank"
             className="px-3"
           >
