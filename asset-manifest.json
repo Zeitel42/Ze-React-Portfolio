@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ze-react-portfolio/static/css/main.1a91fd8c.css",
-    "main.js": "/ze-react-portfolio/static/js/main.fb51aef4.js",
-    "static/js/787.f079f2fb.chunk.js": "/ze-react-portfolio/static/js/787.f079f2fb.chunk.js",
-    "static/media/ACC Game Finder.png": "/ze-react-portfolio/static/media/ACC Game Finder.eaa1d7263fc948468248.png",
-    "static/media/Run Buddy.png": "/ze-react-portfolio/static/media/Run Buddy.a626d2ca11bc4180af1e.png",
-    "static/media/Weather Dashboard.png": "/ze-react-portfolio/static/media/Weather Dashboard.811d161bdeeb469d4fd9.png",
-    "static/media/Quick Quiz.png": "/ze-react-portfolio/static/media/Quick Quiz.17a0b5847dbd9fe0cbcf.png",
-    "static/media/ze-react-port.png": "/ze-react-portfolio/static/media/ze-react-port.5c183d63a92e03e086cf.png",
-    "static/media/headshot.jpg": "/ze-react-portfolio/static/media/headshot.c34d05348e2e6f572bd1.jpg",
-    "static/media/Sapient.png": "/ze-react-portfolio/static/media/Sapient.f75d450b39c77bb6941e.png",
-    "static/media/LiveHire.png": "/ze-react-portfolio/static/media/LiveHire.7d8d8d620e5908cd7e43.png",
-    "static/media/ZEResumeFSWD11122.pdf": "/ze-react-portfolio/static/media/ZEResumeFSWD11122.d048a3f3f02eaad10b4d.pdf",
-    "static/media/ze-resume-img.png": "/ze-react-portfolio/static/media/ze-resume-img.39b1107ed39566e4c255.png",
-    "static/media/Note Taker.png": "/ze-react-portfolio/static/media/Note Taker.f148abe2a2fc34249cc3.png",
-    "index.html": "/ze-react-portfolio/index.html",
-    "main.1a91fd8c.css.map": "/ze-react-portfolio/static/css/main.1a91fd8c.css.map",
-    "main.fb51aef4.js.map": "/ze-react-portfolio/static/js/main.fb51aef4.js.map",
-    "787.f079f2fb.chunk.js.map": "/ze-react-portfolio/static/js/787.f079f2fb.chunk.js.map"
+    "main.css": "/Ze-React-Portfolio/static/css/main.1a91fd8c.css",
+    "main.js": "/Ze-React-Portfolio/static/js/main.e1a4423f.js",
+    "static/js/787.f079f2fb.chunk.js": "/Ze-React-Portfolio/static/js/787.f079f2fb.chunk.js",
+    "static/media/ACC Game Finder.png": "/Ze-React-Portfolio/static/media/ACC Game Finder.eaa1d7263fc948468248.png",
+    "static/media/Run Buddy.png": "/Ze-React-Portfolio/static/media/Run Buddy.a626d2ca11bc4180af1e.png",
+    "static/media/Weather Dashboard.png": "/Ze-React-Portfolio/static/media/Weather Dashboard.811d161bdeeb469d4fd9.png",
+    "static/media/Quick Quiz.png": "/Ze-React-Portfolio/static/media/Quick Quiz.17a0b5847dbd9fe0cbcf.png",
+    "static/media/ze-react-port.png": "/Ze-React-Portfolio/static/media/ze-react-port.5c183d63a92e03e086cf.png",
+    "static/media/headshot.jpg": "/Ze-React-Portfolio/static/media/headshot.c34d05348e2e6f572bd1.jpg",
+    "static/media/Sapient.png": "/Ze-React-Portfolio/static/media/Sapient.f75d450b39c77bb6941e.png",
+    "static/media/LiveHire.png": "/Ze-React-Portfolio/static/media/LiveHire.7d8d8d620e5908cd7e43.png",
+    "static/media/ZEResumeFSWD11122.pdf": "/Ze-React-Portfolio/static/media/ZEResumeFSWD11122.d048a3f3f02eaad10b4d.pdf",
+    "static/media/ze-resume-img.png": "/Ze-React-Portfolio/static/media/ze-resume-img.39b1107ed39566e4c255.png",
+    "static/media/Note Taker.png": "/Ze-React-Portfolio/static/media/Note Taker.f148abe2a2fc34249cc3.png",
+    "index.html": "/Ze-React-Portfolio/index.html",
+    "main.1a91fd8c.css.map": "/Ze-React-Portfolio/static/css/main.1a91fd8c.css.map",
+    "main.e1a4423f.js.map": "/Ze-React-Portfolio/static/js/main.e1a4423f.js.map",
+    "787.f079f2fb.chunk.js.map": "/Ze-React-Portfolio/static/js/787.f079f2fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a91fd8c.css",
-    "static/js/main.fb51aef4.js"
+    "static/js/main.e1a4423f.js"
   ]
 }
