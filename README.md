@@ -30,7 +30,7 @@ An easy to navigate web page that showcases previous projects, has a short biogr
 
 <img src="src\assets\images\ze-react-port.png" alt="image react portfolio">
 
-https://zeitel42.github.io/ze-react-portfolio/
+https://zeitel42.github.io/Ze-React-Portfolio/
 
 ## <h2 id="userLicense">**License**</h2>
 
